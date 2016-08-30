@@ -15,6 +15,8 @@
 		3F8C397C1D75481F00BE1615 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F8C397A1D75481F00BE1615 /* LaunchScreen.storyboard */; };
 		3F8C39871D75481F00BE1615 /* BRNPulseTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F8C39861D75481F00BE1615 /* BRNPulseTests.m */; };
 		3F8C39921D75481F00BE1615 /* BRNPulseUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F8C39911D75481F00BE1615 /* BRNPulseUITests.m */; };
+		3FE014711D754E9400BB7875 /* SignUpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FE014701D754E9400BB7875 /* SignUpViewController.m */; };
+		3FE014731D754F4100BB7875 /*  brn.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FE014721D754F4100BB7875 /*  brn.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,9 @@
 		3F8C398D1D75481F00BE1615 /* BRNPulseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BRNPulseUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F8C39911D75481F00BE1615 /* BRNPulseUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BRNPulseUITests.m; sourceTree = "<group>"; };
 		3F8C39931D75481F00BE1615 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3FE0146F1D754E9400BB7875 /* SignUpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignUpViewController.h; sourceTree = "<group>"; };
+		3FE014701D754E9400BB7875 /* SignUpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignUpViewController.m; sourceTree = "<group>"; };
+		3FE014721D754F4100BB7875 /*  brn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = " brn.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +115,8 @@
 				3F8C397A1D75481F00BE1615 /* LaunchScreen.storyboard */,
 				3F8C397D1D75481F00BE1615 /* Info.plist */,
 				3F8C396C1D75481F00BE1615 /* Supporting Files */,
+				3FE0146F1D754E9400BB7875 /* SignUpViewController.h */,
+				3FE014701D754E9400BB7875 /* SignUpViewController.m */,
 			);
 			path = BRNPulse;
 			sourceTree = "<group>";
@@ -117,6 +124,7 @@
 		3F8C396C1D75481F00BE1615 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				3FE014721D754F4100BB7875 /*  brn.png */,
 				3F8C396D1D75481F00BE1615 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -244,6 +252,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3F8C397C1D75481F00BE1615 /* LaunchScreen.storyboard in Resources */,
+				3FE014731D754F4100BB7875 /*  brn.png in Resources */,
 				3F8C39791D75481F00BE1615 /* Assets.xcassets in Resources */,
 				3F8C39771D75481F00BE1615 /* Main.storyboard in Resources */,
 			);
@@ -272,6 +281,7 @@
 			files = (
 				3F8C39741D75481F00BE1615 /* ViewController.m in Sources */,
 				3F8C39711D75481F00BE1615 /* AppDelegate.m in Sources */,
+				3FE014711D754E9400BB7875 /* SignUpViewController.m in Sources */,
 				3F8C396E1D75481F00BE1615 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -496,6 +506,7 @@
 				3F8C39981D75481F00BE1615 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3F8C39991D75481F00BE1615 /* Build configuration list for PBXNativeTarget "BRNPulseTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +515,7 @@
 				3F8C399B1D75481F00BE1615 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3F8C399C1D75481F00BE1615 /* Build configuration list for PBXNativeTarget "BRNPulseUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +524,7 @@
 				3F8C399E1D75481F00BE1615 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
